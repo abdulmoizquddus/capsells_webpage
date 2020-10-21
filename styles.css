@@ -427,12 +427,13 @@ nav > ul,
     width: 120px;
   }
   #thirdpage {
+    width: 100%;
     padding-top: 80px;
-    background: url(skins/subtraction_2.png);
+    background: url(skins/subtraction_2.png) top center;
     max-height: 600px;
     position: relative;
-    top: -120px;
-    left: -12px;
+    top: 0px;
+    left: 0px;
   }
   #footer {
     display: flex;
@@ -440,6 +441,7 @@ nav > ul,
     justify-content: center;
     align-items: center;
     margin: 0px;
+    padding: 20px;
   }
   #lorem > .button {
     margin-top: 20px;
@@ -448,7 +450,4 @@ nav > ul,
     margin: auto;
     margin-top: 20px;
   }
-  /* #div_lorem {
-      margin-left: 20px;
-    } */
 }
