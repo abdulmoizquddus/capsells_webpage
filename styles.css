@@ -107,7 +107,7 @@ h6 {
   left: -20px;
   background: url(skins/subtraction_2.png);
   width: 102%;
-  height: 300px;
+  min-height: 300px;
 }
 #secondpageupperdiv {
   margin-top: 150px;
@@ -226,6 +226,7 @@ nav {
   height: 0px;
   width: 0px;
 }
+nav > ul,
 #chkbox,
 #chkbtn {
   display: none;
@@ -256,9 +257,6 @@ nav {
     height: 50px;
     width: 100%;
   }
-  #thirdpage {
-    display: none;
-  }
   #navbar ul {
     display: none;
   }
@@ -269,6 +267,7 @@ nav {
     transition: 0.3s;
   }
   nav ul {
+    display: block;
     color: white;
     list-style-type: none;
     background-color: rgba(16, 95, 128, 255);
@@ -364,6 +363,7 @@ nav {
     font-size: 14px;
   }
   #secondpage {
+    max-height: 1800px;
     width: 100%;
     position: relative;
     top: -120px;
@@ -426,4 +426,29 @@ nav {
     height: 120px;
     width: 120px;
   }
+  #thirdpage {
+    padding-top: 80px;
+    background: url(skins/subtraction_2.png);
+    max-height: 600px;
+    position: relative;
+    top: -120px;
+    left: -12px;
+  }
+  #footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+  }
+  #lorem > .button {
+    margin-top: 20px;
+  }
+  #footer > div {
+    margin: auto;
+    margin-top: 20px;
+  }
+  /* #div_lorem {
+      margin-left: 20px;
+    } */
 }
