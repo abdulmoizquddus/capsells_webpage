@@ -273,7 +273,7 @@ nav {
     list-style-type: none;
     background-color: rgba(16, 95, 128, 255);
     width: 100%;
-    height: 500px;
+    height: 100vh;
     position: fixed;
     left: -100%;
     top: 50px;
@@ -360,6 +360,9 @@ nav {
   #innerdivright {
     margin-top: 90px;
   }
+  h6 {
+    font-size: 14px;
+  }
   #secondpage {
     width: 100%;
     position: relative;
@@ -403,11 +406,24 @@ nav {
     width: 100%;
   }
   .products {
+    height: 250px;
+    width: 120px;
     border-radius: 5px;
     padding-bottom: 20px;
     overflow: hidden;
     border: 2px solid grey;
     margin: auto;
     margin-top: 15px;
+  }
+  .products > p {
+    font-size: 13px;
+  }
+  .products > p,
+  .button {
+    margin-top: 5px;
+  }
+  .products > img {
+    height: 120px;
+    width: 120px;
   }
 }
